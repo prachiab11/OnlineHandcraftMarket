@@ -1,0 +1,54 @@
+Tables===
+
+	Customer
+		customer_id(primary key)
+		c_name
+		contact_no
+		c_email
+		//product_id	(foreign key)
+		//product_name
+		address
+		//supplier_id(foreign key)
+		payment_info
+		order
+
+	Supplier
+		supplier_id(primary key)
+		s_name
+		contact_no
+		s_email
+		address
+		state
+		product_name or type_of_product
+
+	Order_or_purchase table
+		customer_id(foreign key)
+		c_name
+		product_id(foereign key)
+		product_name
+		c_email
+		contact_no
+		payment info
+		paid or not
+		cancellation
+	
+	Products
+		product_id
+		product_name
+		product_price
+		photos
+		stock
+
+	
+	
+	
+		
+	
+			
+		
+		
+		
+		
+
+		
+		
